@@ -1,0 +1,20 @@
+{
+  "name": "walgschat",
+  "version": "1.0.0",
+  "description": "Instant Messaging Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lakiduck/WalgsChat.git"
+  },
+  "author": "Lakshan Walgama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lakiduck/WalgsChat/issues"
+  },
+  "homepage": "https://github.com/Lakiduck/WalgsChat#readme"
+}
