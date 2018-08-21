@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Lakiduck/WalgsChat/issues"
   },
-  "homepage": "https://github.com/Lakiduck/WalgsChat#readme"
+  "homepage": "https://github.com/Lakiduck/WalgsChat#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
