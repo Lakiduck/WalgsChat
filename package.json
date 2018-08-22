@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Lakiduck/WalgsChat#readme",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.16.3",
     "socket.io": "^2.1.1"
   }
 }
