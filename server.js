@@ -15,9 +15,12 @@ var server = app.listen(3000, function(req, res){
 
 var io = require('socket.io').listen(server);
 
-io.on('connection', function(socket){
-  console.log('A user is connected');
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
+
+io.on('connection',function(socket){
+  console.log('SOMEONE CONNECTED:', socket.id);
+
+  socket.on('send', function(data){
+    console.log(data);
+    io.sockets.emit('new', data);
   });
 });
